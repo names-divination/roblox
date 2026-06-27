@@ -1,6 +1,6 @@
 // 各カードに対応するスクリプトのテキストを定義
 const scriptDatabase = {
-    farm: `-- [[ Auto Farm Script v1.0 ]] --\nprint("Auto Farm Initialized")\n-- ここに自動化のメイン処理を記述\n`,
+    farm: `loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))()\n--無料スクリプト、公開サーバー用\n`,
     
     clipboard_test: `-- [[ Data Clipboard Tool ]] --\n` +
                     `local targetData = "テスト用ダミーデータ"\n` +
