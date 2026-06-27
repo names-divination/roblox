@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Script Hub & Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Delta Executor Script Hub</h1>
+        <p>最新のスクリプトと検証用ツールのアーカイブ</p>
+    </header>
+
+    <main class="container">
+        <section class="script-grid">
+            
+            <div class="script-card">
+                <img src="images/script1.png" alt="Script Icon" class="card-img">
+                <h3>Auto Farm Script</h3>
+                <p>ゲーム内の自動化検証用スクリプトです。</p>
+                <button class="btn" onclick="loadScript('farm')">スクリプトを取得</button>
+            </div>
+
+            <div class="script-card">
+                <img src="images/script2.png" alt="Script Icon" class="card-img">
+                <h3>Data Clipboard Tool</h3>
+                <p>特定の文字列をクリップボードに退避させるテストコード。</p>
+                <button class="btn" onclick="loadScript('clipboard_test')">スクリプトを取得</button>
+            </div>
+
+        </section>
+
+        <section id="code-display" class="code-box hidden">
+            <h3>生成されたコード</h3>
+            <pre><code id="lua-code">-- ここにコードが表示されます</code></pre>
+            <button class="btn copy-btn" onclick="copyToClipboard()">コードをコピー</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Delta Script Showcase Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
